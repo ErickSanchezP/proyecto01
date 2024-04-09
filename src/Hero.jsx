@@ -15,7 +15,7 @@ function Hero ({platillo}) {
             <h2 class="display-3 text-center"> {platillo}</h2>
             </div>
 
-            <button class="btn btn-success p-5 m-3">Descubre más</button>
+            <button class="btn btn-success p-5 m-4">Descubre más</button>
         </div>
       </>
     ) 

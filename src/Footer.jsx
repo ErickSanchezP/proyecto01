@@ -2,7 +2,7 @@ function Futer () {
     return (
     <footer class="row blockquote-footer p-5">
 
-        <div class="col-md-4 row">
+        <div class="col-md-auto row">
         <p>Síguenos en:</p>
 
         <a>Facebook</a>
@@ -10,8 +10,8 @@ function Futer () {
         <a>TikTok</a>
         </div>
 
-        <div class="col-md-4">
-        <address>
+        <div class="col-md-auto">
+w       <address>
         <strong>DOLCE VISTA, Inc.</strong><br></br>
             1234 Very Real Street, Suite 1<br></br>
             San Francisco, CA 11111<br></br>

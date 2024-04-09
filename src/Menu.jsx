@@ -9,11 +9,11 @@ return (
             
 
         </div> */}
-        <div class="h-100" >
-        <h2 id="tituloMenu"class="text-center h-30">Menú</h2>
+        <div class="p-4" >
+        <h2 id="tituloMenu"class="text-center display-3">Menú</h2>
         </div>
         <div class="row justify-content-around">
-        <div class="col-md-4"><h3>PASTAS</h3>
+        <div class="col-md-auto"><h3>PASTAS</h3>
             <ul>
                 <li>Spaguetti</li>
                 <li>Penne</li>
@@ -22,7 +22,7 @@ return (
             </ul>
         
         </div>
-        <div class="col-md-4"><h3>PIZZA</h3>
+        <div class="col-md-auto"><h3>PIZZA</h3>
             <ul>
                 <li>Margarita</li>
                 <li>Marinara</li>
@@ -30,7 +30,7 @@ return (
                 <li>Diavola</li>
             </ul>
         </div>
-        <div class="col-md-4"><h3>POSTRES Y AGUAS</h3>
+        <div class="col-md-auto"><h3>POSTRES Y AGUAS</h3>
             <ul>
                 <li>Tiramisú</li>
                 <li>Zapote</li>
