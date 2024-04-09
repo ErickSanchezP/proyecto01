@@ -1,7 +1,8 @@
+/*
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import './App.css'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -32,4 +33,22 @@ function App() {
   )
 }
 
+export default App */
+
+import Encabezado from "./Encabezado"
+import Hero from "./Hero"
+import Menu from "./Menu"
+import Futer from "./Footer"
+import Section from "./Section"
+
+function App () {
+  return ( <>
+    <Encabezado saludo="Bienvenido"/>
+    
+    <Hero platillo="Dolcepasta"></Hero>
+    <Section  saludo="Hola."></Section>
+    <Menu></Menu>
+    <Futer></Futer>
+  </> )
+}
 export default App
